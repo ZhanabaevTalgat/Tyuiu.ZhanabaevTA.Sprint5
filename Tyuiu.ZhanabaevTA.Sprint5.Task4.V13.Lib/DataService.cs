@@ -8,7 +8,7 @@ namespace Tyuiu.ZhanabaevTA.Sprint5.Task4.V13.Lib
         {
             string strX = File.ReadAllText(path);
             double x = Double.Parse(strX.Replace('.',','));
-            double res = Math.Round(Math.Cos(x) + (Math.Pow(x, 2)/ 2), 2);
+            double res = Math.Round(Math.Cos(x) + (Math.Pow(x, 2)/ 2), 3);
 
             return res;
         }
